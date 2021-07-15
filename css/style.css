@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.background-section {
+    background-image: url(../assets/background/liquidacaofantastica.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.section {
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
