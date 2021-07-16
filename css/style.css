@@ -34,11 +34,14 @@ h1, h2, h3, h4, h5, p, b {
 .background-section-mod {
     background-image: url(../assets/background/bg2.jpg);
     background-size: 100% 100%;
+    background-position: center;
 }
 
 .window-liqui {
     display: none;
     justify-items: center;
+    position: relative;
+    align-items: center;
     
 }
 
@@ -47,8 +50,39 @@ h1, h2, h3, h4, h5, p, b {
     margin-bottom: 40%;    
 }
 
-.input {
-    position: relative;
-    margin-left: -300px; /* falta ajustar a posição dos inputs e buttons */
+.input-container {
+    display: flex;
+    max-width: 300px;
+    border-radius: 10px;
+    align-items: center;
+}
 
+.fieldset-border {
+    border-radius: 15px;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+  
+.fieldset-border .legend-border {
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    width: auto;
+    padding: 0 10px;
+    border-bottom: none;
+}
+
+form {
+    display: grid;
+}
+
+input {
+    width: 88%;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: pink;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
 }

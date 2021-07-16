@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,27 @@
     <title>Liquidação Fantástica</title>
     <link href="./css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <section id="section-one" class="section background-section">
         <div id="aproveitar" class="texto-aproveitar">
             <p>CLIQUE PARA APROVEITAR</p>
         </div>
         <div id="window" class="window-liqui">
-            <img src="./assets/background/liquidação.png" alt="janela liquidacao" width="350" height="auto">
+            <fieldset class="fieldset-border">
+                <legend class="legend-border">CADASTRO</legend>
+                <div class="input-container">
+                    <form id="formulario">
+                        <input id="name" type="text" placeholder="name">
+                        <input id="email" type="text" placeholder="email">
+                        <input id="button" type="submit" value="Cadastrar" src="./assets/button/button.png">
+                    </form>
+                </div>
+            </fieldset>
         </div>
-        <div class="input">
-            <input type="nome">
-        </div>
+
     </section>
 </body>
 <script type="text/javascript" src="./js/script.js"></script>
+
 </html>
