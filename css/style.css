@@ -10,7 +10,6 @@ html {
 }
 
 h1, h2, h3, h4, h5, p, b {
-    color: yellow;
     position: relative;
     font-family: 'Lato', sans-serif;
 }
@@ -31,13 +30,23 @@ h1, h2, h3, h4, h5, p, b {
     
 }
 
-.background-section-mod {
-    background-image: url(../assets/background/bg2.jpg);
+.background-section--mod {
+    display: none;
+    background-color: #d50e23;
     background-size: 100% 100%;
     background-position: center;
 }
 
+.background-section--mod---div-one {
+    display: flex;
+    background-color: #fd4148;
+    width: 900px;
+    height: 100%;
+    margin: auto;
+}
+
 .window-liqui {
+    flex-direction: reverse;
     display: none;
     justify-items: center;
     position: relative;
@@ -46,6 +55,7 @@ h1, h2, h3, h4, h5, p, b {
 }
 
 .texto-aproveitar {
+    color: yellow;
     display: flex;
     margin-bottom: 40%;    
 }
@@ -73,6 +83,39 @@ h1, h2, h3, h4, h5, p, b {
     border-bottom: none;
 }
 
+.section-head{
+    display: flex;
+    position: absolute; 
+    height:300px;
+    width:900px;
+}
+
+.texto-promocao {
+    display: flex;
+    margin-top: 300px;
+    justify-content: left;
+    color: black;
+    background-color: white;
+    height: auto;
+    width: 300px;
+    text-align: left;
+}
+
+.topo {
+    height: max-content;
+    float: left;
+}
+
+.corpo {
+    height: max-content;
+    float: left;
+}
+
+.base {
+    height: max-content;
+    float: left;
+}
+
 form {
     display: grid;
 }
@@ -82,7 +125,6 @@ input {
     height: 30px;
     text-align: center;
     border-radius: 10px;
-    background-color: pink;
     margin: 10px;
     font-family: 'Lato', sans-serif;
 }
