@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Gloria+Hallelujah&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 600px) {
+    .section {
+        height: 1400px;
+    }
+
+    .background-section--mod---div-one {
+        width: 100%;
+    }
 }
 
 html {
@@ -11,7 +23,6 @@ html {
 
 h1, h2, h3, h4, h5, p, b {
     display: flex;
-    font-family: 'Lato', sans-serif;
 }
 
 .section {
@@ -28,16 +39,16 @@ h1, h2, h3, h4, h5, p, b {
     
 }
 
-.background-section--mod {
-    display: none;
-    background-color: #d50e23;
-    background-size: 100% 100%;
-}
-
 .texto-aproveitar {
     color: yellow;
     display: flex;
     top: 5%;    
+}
+
+.background-section--mod {
+    display: none;
+    background-color: #d50e23;
+    background-size: 100% 100%;
 }
 
 .background-section--mod---div-one {
@@ -105,33 +116,39 @@ h1, h2, h3, h4, h5, p, b {
     width: 60%;
     text-align: center;
     position: relative;
+    font-family: 'Lato', sans-serif;
 }
 
 .topo {
     display: flex;
     position: fixed;
     width: 100%;
+    top: 35%;
+    font-family: 'Bangers', cursive;
+    font-size: large;
 }
 
 .corpo {
     display: flex;
     position: relative;
-    top: 30%;
+    top: 22%;
     height: max-content;
     float: left;
     margin-left: 20px;
     text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 li.lista {
     margin: 10px;
-    font-family: 'Lato', sans-serif;
 }
 
 .base {
     display: flex;
     position: fixed;
     bottom: 15%;
+    font-family: 'Bangers', cursive;
+    font-size: large;
 }
 
 .footer {
@@ -150,6 +167,8 @@ li.lista {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    font-size: small;
+    font-weight: bold;
 }
 
 form {
